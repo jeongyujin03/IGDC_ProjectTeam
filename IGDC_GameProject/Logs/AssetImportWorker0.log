@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_ProjectTeam/IGDC_GameProject
+C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_TeamProject/IGDC_GameProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54497
-Successfully changed project path to: C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_ProjectTeam/IGDC_GameProject
-C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_ProjectTeam/IGDC_GameProject
+50010
+Successfully changed project path to: C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_TeamProject/IGDC_GameProject
+C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_TeamProject/IGDC_GameProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_ProjectTeam/IGDC_GameProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21732] Host "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 975152867 [EditorId] 975152867 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BA0QAH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18796] Host "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 3302167676 [EditorId] 3302167676 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BA0QAH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21732] Host "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 975152867 [EditorId] 975152867 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BA0QAH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18796] Host "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 3302167676 [EditorId] 3302167676 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BA0QAH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 109.69 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 196.39 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_ProjectTeam/IGDC_GameProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/lunay/iCloudDrive/문서/GitHub/IGDC_TeamProject/IGDC_GameProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,106 +67,153 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008403 seconds.
+Registered in 0.014266 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 201.47 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
+- Completed reload, in  1.143 seconds
 Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (638ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (406ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (499ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (202ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (134ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012722 seconds.
+Registered in 0.018718 seconds.
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_ProjectTeam\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.State/Unity.VisualScripting.State.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/SettingsProvider/Unity.VisualScripting.SettingsProvider.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity.VisualScripting.Core.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  2.140 seconds
+- Completed reload, in  1.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2141ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (1788ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1740ms)
-			LoadAssemblies (170ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1369ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (1059ms)
+			RebuildScriptCaches (332ms)
+			SetupLoadedEditorAssemblies (566ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (704ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (21ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (378ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3759 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.4 KB). Loaded Objects now: 4220.
-Memory consumption went from 146.4 MB to 146.3 MB.
-Total: 12.057900 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.148100 ms MarkObjects: 11.470000 ms  DeleteObjects: 0.111900 ms)
+Unloading 4611 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (57.1 KB). Loaded Objects now: 5029.
+Memory consumption went from 165.5 MB to 165.4 MB.
+Total: 5.860100 ms (FindLiveObjects: 1.149700 ms CreateObjectMapping: 0.340900 ms MarkObjects: 4.190300 ms  DeleteObjects: 0.176800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -181,101 +228,349 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 314229.011495 seconds.
-  path: Assets/Image/mousemini.png
-  artifactKey: Guid(060c177cb4e521044b9ca5647129e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/mousemini.png using Guid(060c177cb4e521044b9ca5647129e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe2a32a97b3e77298286e949a75d580') in 0.119364 seconds 
+  Time since last request: 584.073253 seconds.
+  path: Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef
+  artifactKey: Guid(e25a61468ff30f44fad56a6b40062363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef using Guid(e25a61468ff30f44fad56a6b40062363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fb76db0d7e3bad057a9b7475d89fa6') in 0.072307 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Image/nurseCharmini.png
-  artifactKey: Guid(9e22794cc7dc31c4da49811100611d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/nurseCharmini.png using Guid(9e22794cc7dc31c4da49811100611d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d62666e4724915cfbcba1bd85a62b9') in 0.057740 seconds 
+  Time since last request: 824.912902 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef
+  artifactKey: Guid(d0d897c4aa12b8140b650ec29e099ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef using Guid(d0d897c4aa12b8140b650ec29e099ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8742871b5d641f6ea4611054ffb4db69') in 0.007949 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Image/cursorOrigin.png
-  artifactKey: Guid(e773795073aaa084cb4bb56b159bf747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/cursorOrigin.png using Guid(e773795073aaa084cb4bb56b159bf747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deb22e2bb783aae30d82875f7755058') in 0.017540 seconds 
+  Time since last request: 203.732856 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.api
+  artifactKey: Guid(22dae0cede953ee46bef52cd8dc7b9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.api using Guid(22dae0cede953ee46bef52cd8dc7b9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165621d687897bd8fd2190f216688a1c') in 0.030190 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Image/settingimage.png
-  artifactKey: Guid(1af7d545de268794a9a990a12bc3ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/settingimage.png using Guid(1af7d545de268794a9a990a12bc3ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd660366d5e5f8299d8203cf8e2b021') in 0.022235 seconds 
+  Time since last request: 112.820265 seconds.
+  path: Packages/com.unity.services.core/package.json
+  artifactKey: Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/package.json using Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3455c932dc821e4ff9fbeefd2ca455b1') in 0.018572 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Image/inhaOrigin_image_bgi.png
-  artifactKey: Guid(52cf4b8512ea14c4f96f0b8f0146b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/inhaOrigin_image_bgi.png using Guid(52cf4b8512ea14c4f96f0b8f0146b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9874491e2928abd1e2885222b2dc51') in 0.025237 seconds 
+  Time since last request: 16.421268 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef
+  artifactKey: Guid(1c66728ad60364b82bf095d383b87458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef using Guid(1c66728ad60364b82bf095d383b87458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55911198751559a35cb613f1d175b3ab') in 0.016177 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014405 seconds.
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Loading visual scripting project settings failed!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.VisualScripting.PluginConfiguration:LoadOrCreateProjectSettingsAsset () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:179)
+Unity.VisualScripting.PluginConfiguration:LoadProjectSettings () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:149)
+Unity.VisualScripting.PluginConfiguration:Load () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:75)
+Unity.VisualScripting.PluginConfiguration:Initialize () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:23)
+Unity.VisualScripting.PluginContainer:Initialize () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:199)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed (bool) (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:48)
+Unity.VisualScripting.VSUsageUtility:.cctor () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs Line: 179)
+
+Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginConfiguration.Initialize () [0x000b2] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginConfiguration.cs:59 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x004a3] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:199 
+Rethrow as Exception: Failed to initialize plugin module 'VisualScripting.Core.BoltCoreConfiguration'.
+
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.VisualScripting.PluginContainer:Initialize() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:204)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed(Boolean) (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48)
+Unity.VisualScripting.VSUsageUtility:.cctor() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[])
+
+(Filename: Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs Line: 204)
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.694 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2696ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2319ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (1263ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 954 unused Assets / (28.7 KB). Loaded Objects now: 4098.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 14.965700 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.162500 ms MarkObjects: 14.146000 ms  DeleteObjects: 0.323400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Image/mouseCursor.png
-  artifactKey: Guid(ec41550ee4a0547429dcc332ef366998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/mouseCursor.png using Guid(ec41550ee4a0547429dcc332ef366998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cbf1b54881c6364bfd81b984583685') in 0.013471 seconds 
+  Time since last request: 83.377602 seconds.
+  path: Assets/Bolt 2D LittleWars VE3/Readme.asset
+  artifactKey: Guid(034cefd97c06afc43a70d5c91b97fb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D LittleWars VE3/Readme.asset using Guid(034cefd97c06afc43a70d5c91b97fb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6b9770f1181df8b7582847a5be31cb') in 0.025052 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Image/WhiteSquare.png
-  artifactKey: Guid(3501bffa3d149f048bc9a6522b85a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/WhiteSquare.png using Guid(3501bffa3d149f048bc9a6522b85a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f21aff5a3d38b80eef9c68a2b05bcc') in 0.019385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Image/TitleMenu2.png
-  artifactKey: Guid(1ec183747ed90354794cb5bbd479a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/TitleMenu2.png using Guid(1ec183747ed90354794cb5bbd479a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75703323ea78e8985af84da21546fd79') in 0.020063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sound/GameSound.mixer
-  artifactKey: Guid(4f51454cc912d154ba1bbcff9997df61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/GameSound.mixer using Guid(4f51454cc912d154ba1bbcff9997df61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461a07caa5e89f1fc2442e8c06b43f5b') in 0.016955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Image/Titlename2.png
-  artifactKey: Guid(f22befc3d86047447bfb0f476745522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Titlename2.png using Guid(f22befc3d86047447bfb0f476745522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1084624fa7c6e35992eea0836b8b915') in 0.020285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Image/nurseCharAnim.png
-  artifactKey: Guid(63028d2d239284546800dcf4ccbcce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/nurseCharAnim.png using Guid(63028d2d239284546800dcf4ccbcce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba864b3a8b2abaa6f1a67a8e901a69de') in 0.044837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Image/nurseItem.png
-  artifactKey: Guid(ac64aa278bf8ba147aa4537ba34e69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/nurseItem.png using Guid(ac64aa278bf8ba147aa4537ba34e69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da003075e004807c29ff636fe4ac068') in 0.018333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Image/nurseChar1 1.png
-  artifactKey: Guid(c5d34335a9a212b45abf336161cb7cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/nurseChar1 1.png using Guid(c5d34335a9a212b45abf336161cb7cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f4aba73379b455c449c065555dfe3f') in 0.019948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Image/TitleMenu.png
-  artifactKey: Guid(7af57a53b304bee40a15ea8d6970fe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/TitleMenu.png using Guid(7af57a53b304bee40a15ea8d6970fe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867de4f0b78c7d1081e0b6937e25bbcf') in 0.019827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Image/nurseChar2.png
-  artifactKey: Guid(3db9bb4231c26604aacd1c88b33bf5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/nurseChar2.png using Guid(3db9bb4231c26604aacd1c88b33bf5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6420fe96b933e184559a943522b80b94') in 0.023418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Image/inhaOrigin_image_groundi.png
-  artifactKey: Guid(c56eefe34fbac5e489d555661228fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/inhaOrigin_image_groundi.png using Guid(c56eefe34fbac5e489d555661228fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f596ced7a9265ade3c0f131fa991ea') in 0.019365 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011834 seconds.
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Configuration/Unity.Services.Core.Configuration.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Loading visual scripting project settings failed!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.VisualScripting.PluginConfiguration:LoadOrCreateProjectSettingsAsset () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:179)
+Unity.VisualScripting.PluginConfiguration:LoadProjectSettings () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:149)
+Unity.VisualScripting.PluginConfiguration:Load () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:75)
+Unity.VisualScripting.PluginConfiguration:Initialize () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs:23)
+Unity.VisualScripting.PluginContainer:Initialize () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:199)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed (bool) (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33)
+Unity.VisualScripting.VSUsageUtility:.cctor () (at Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginConfiguration.cs Line: 179)
+
+Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginConfiguration.Initialize () [0x000b2] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginConfiguration.cs:59 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x004a3] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:199 
+Rethrow as Exception: Failed to initialize plugin module 'VisualScripting.Core.BoltCoreConfiguration'.
+
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.VisualScripting.PluginContainer:Initialize() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:204)
+Unity.VisualScripting.PluginContainer:InitializeOnLoad() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32)
+Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76)
+Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed(Boolean) (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114)
+Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33)
+Unity.VisualScripting.VSUsageUtility:.cctor() (at Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[])
+
+(Filename: Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs Line: 204)
+
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\lunay\iCloudDrive\문서\GitHub\IGDC_TeamProject\IGDC_GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2819ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2271ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (300ms)
+				ProcessInitializeOnLoadAttributes (878ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.7 KB). Loaded Objects now: 4103.
+Memory consumption went from 115.1 MB to 115.1 MB.
+Total: 19.046100 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.361500 ms MarkObjects: 18.327400 ms  DeleteObjects: 0.042200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
